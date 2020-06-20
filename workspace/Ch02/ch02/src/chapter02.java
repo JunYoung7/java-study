@@ -22,6 +22,10 @@ public class chapter02 {
 		// 표현할 실제 변수의 전체자리가 명시한 전체자리보다 크면 그냥 실제 변수 크기대로 출력
 		System.out.printf("%30.15f", a);
 
+		short b = 1231;
+		byte zz = 5;
+		
+		zz = (byte)b;
 	}
 
 }
